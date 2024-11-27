@@ -1,0 +1,26 @@
+header{
+    border-bottom: 5px solid;
+    background-color: aqua;
+    height: 100px;
+}
+
+@media screen and (max-width:1200px){
+    header{
+        background-color: blue;
+    }
+}
+@media screen and (max-width:992px){
+    header{
+        background-color: rgb(31, 167, 76);
+    }
+}
+@media screen and (max-width:768px){
+    header{
+        background-color: rgb(196, 207, 30);
+    }
+}
+@media screen and (max-width:598px){
+    header{
+        background-color: blue;
+    }
+}
